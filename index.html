@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Eco del IES Europa - Edición Digital</title>
+    
+    <!-- Frameworks y Fuentes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Hoja de estilos propia -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+
+    <!-- Contenedor Principal -->
+    <div class="max-w-6xl mx-auto bg-white shadow-xl">
+
+        <!-- Cabecera -->
+        <header class="border-b-2 border-gray-200 px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-left">
+                    <h1 class="font-serif text-3xl md:text-4xl font-black text-gray-900">EL ECO</h1>
+                    <p class="text-sm text-gray-500 tracking-widest">DEL IES EUROPA</p>
+                </div>
+                <nav class="hidden md:flex items-center space-x-6 text-sm font-bold">
+                    <a href="#" class="hover:text-green-600">Actualidad</a>
+                    <a href="#" class="hover:text-green-600">Cultura</a>
+                    <a href="#" class="hover:text-green-600">Deportes</a>
+                    <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-md">OFERTAS DE EMPLEO</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="p-6 md:p-10">
+
+            <!-- Noticia Principal / Oferta de Empleo -->
+            <section class="hero-bg text-white p-8 md:p-12 rounded-lg text-center flex flex-col items-center justify-center">
+                <span class="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-4">OPORTUNIDAD ÚNICA</span>
+                <h2 class="font-serif text-4xl md:text-6xl font-bold mb-4 shadow-text">El IES Europa Lanza Licitación para un Proyecto de Innovación Educativa</h2>
+                <p class="max-w-3xl text-lg md:text-xl mb-8">
+                    Se busca un equipo de expertos multidisciplinar para el diseño, creación y mantenimiento de un huerto escolar tecnológico y sostenible (Huerto STEAM) durante el curso 2025-2026.
+                </p>
+                <a href="terminos_proyecto.html" target="_blank" class="inline-block bg-gradient-to-r from-green-500 to-lime-600 text-white font-bold text-lg py-4 px-8 rounded-lg hover:from-green-600 hover:to-lime-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
+                    Consultar las Bases del Proyecto
+                </a>
+            </section>
+
+            <!-- Grid de Noticias Secundarias -->
+            <div class="mt-12">
+                <h3 class="font-serif text-3xl font-bold border-b-2 border-gray-200 pb-2 mb-6">Más Noticias</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <!-- Artículo 1 -->
+                    <article class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <span class="text-sm font-bold text-green-700">CIENCIA</span>
+                        <h4 class="font-serif text-2xl font-bold mt-2 mb-3">El centro se prepara para la Semana de la Ciencia</h4>
+                        <p class="text-gray-600 text-sm">Talleres de robótica y astronomía abiertos a la comunidad para fomentar las vocaciones científicas. El IES Europa busca convertirse en un referente de la divulgación en la zona.</p>
+                    </article>
+
+                    <!-- Artículo 2 -->
+                    <article class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <span class="text-sm font-bold text-red-700">CULTURA</span>
+                        <h4 class="font-serif text-2xl font-bold mt-2 mb-3">Éxito rotundo del II Certamen de Microrrelatos</h4>
+                        <p class="text-gray-600 text-sm">Con más de 50 participantes, la temática "El futuro que imaginamos" ha dejado obras de una calidad sorprendente. La entrega de premios será el próximo viernes.</p>
+                    </article>
+
+                    <!-- Artículo 3 -->
+                    <article class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <span class="text-sm font-bold text-blue-700">DEPORTES</span>
+                        <h4 class="font-serif text-2xl font-bold mt-2 mb-3">El equipo de baloncesto arranca la pretemporada</h4>
+                        <p class="text-gray-600 text-sm">Con nuevas incorporaciones y mucha ilusión, el equipo del instituto ha comenzado los entrenamientos. El entrenador se muestra optimista de cara a la nueva temporada.</p>
+                    </article>
+                    
+                    <!-- Artículo 4 -->
+                    <article class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <span class="text-sm font-bold text-purple-700">INNOVACIÓN EDUCATIVA</span>
+                        <h4 class="font-serif text-2xl font-bold mt-2 mb-3">El centro apuesta por la gamificación</h4>
+                        <p class="text-gray-600 text-sm">El IES implementará un sistema de puntos e insignias en sus nuevos proyectos para aumentar la motivación. La iniciativa, que se estrenará en la licitación del Huerto STEAM, busca premiar el esfuerzo y el trabajo en equipo.</p>
+                    </article>
+
+                </div>
+            </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-gray-300 text-center p-6 mt-8">
+            <p>&copy; 2025 El Eco del IES Europa. Todos los derechos reservados.</p>
+            <p class="text-xs text-gray-500 mt-1">Móstoles, Madrid</p>
+        </footer>
+
+    </div>
+    
+    <!-- Script propio -->
+    <script src="script.js" defer></script>
+</body>
+</html>
+

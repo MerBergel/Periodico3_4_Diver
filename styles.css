@@ -1,0 +1,15 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f2;
+}
+
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-bg {
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placehold.co/1200x600/a3e635/14532d?text=Huerto+STEAM');
+     background-size: cover;
+     background-position: center;
+}
+
